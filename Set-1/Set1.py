@@ -1,5 +1,14 @@
-# Write a Python program that prints "Hello, World!" to the console.
+# Numbers: int, float, complex
+# Strings: str
+# Booleans: True and False
+# Lists: list
+# Tuples: tuple
+# Dictionaries: dict
+# Sets: set
+# if, elif, else for conditional branching.
+# for and while for loops.
 
+# Write a Python program that prints "Hello, World!" to the console.
 print("Hello world")
 
 
@@ -49,6 +58,12 @@ numberremove=3
 numbers_list.remove(numberremove)
 print(numbers_list)
 
+numbers_list.sort()
+print(numbers_list)
+numbers_list.sort(reverse=True)
+print(numbers_list)
+
+
 
 #Write a Python program that calculates and prints the sum and average of a list of numbers.
 
@@ -71,15 +86,15 @@ print(revstring)
 
 #Write a Python program that counts the number of vowels in a given string.
 
-# str = input("Enter a string:")
-# vowels="aeiouAEIOU"
-# count=0
+str = input("Enter a string:")
+vowels="aeiouAEIOU"
+count=0
 
-# for char in str:
-#   if char in vowels:
-#      count += 1
+for char in str:
+  if char in vowels:
+     count += 1
 
-# print("Number of vowels in the string:", count)
+print("Number of vowels in the string:", count)
 
 # Write a Python function that checks whether a given number is a prime number.
 def isPrime(num):
